@@ -1,5 +1,6 @@
 # Experiments
 Experiments to strengthen results for Neurips sumbission paper "Mechanism design augmented with output advice".
+https://arxiv.org/abs/2406.14165
 
 ## Classes / Utils
 This folder contains two types of files.
