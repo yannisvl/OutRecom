@@ -19,11 +19,12 @@ Please follow the following steps to download them and place them inside the dat
 
 ## Experiments
 First run 
-    pip install -r requirements.txt
-to download required packages
+    `pip install -r requirements.txt`
+to download required packages.
+Create an empty folder called experiments in the main directory.
 
 An experiment can be run with the "main.py" script with e.g. 
-    python main.py --problem "FL" --dataset "Autotel" --confidence 0.01
+    `python main.py --problem "FL" --dataset "Autotel" --confidence 0.01`
 Such a command runs Coordinatewise Median with Prediction with confidence 0.01 on the Autotel dataset with 100 different predictions. 
 It also saves the results on a specific file inside the experiments folder.
 Alternatively, the "run_exp.bat" script contains multiple experiments.
