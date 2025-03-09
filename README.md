@@ -21,7 +21,6 @@ Please follow the following steps to download them and place them inside the "da
 First run 
     `pip install -r requirements.txt`
 to download required packages.
-Create an empty folder called experiments in the main directory.
 
 An experiment can be run with the "main.py" script with e.g. 
     `python main.py --problem "FL" --dataset "Autotel" --confidence 0.01`
