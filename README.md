@@ -10,7 +10,7 @@ This folder contains two types of files.
 
 ## Datasets
 Datasets are not included in this folder because of the large space they require.
-Please follow the following steps to download them and place them inside the datasets folder.
+Please follow the following steps to download them and place them inside the "datasets" folder.
 1. Download "2020_02_25.csv" from [https://www.kaggle.com/datasets/gidutz/autotel-shared-car-locations/data], extract the csv file and rename it to "autotel.csv"
 2. Download "database.csv" file from [https://www.kaggle.com/datasets/usgs/earthquake-database], extract the csv file and rename it to "earthquake.csv"
 3. Download 5 Twitter dataset files from [https://github.com/fe6Bc5R4JvLkFkSeExHM/k-center/tree/master/dataset], and use extract_twitter.py to extract it into a single csv
@@ -29,5 +29,5 @@ It also saves the results on a specific file inside the experiments folder.
 Alternatively, the "run_exp.bat" script contains multiple experiments.
 
 ## Figures
-The "process_data.py" script reads experimental results from the "experiments" folder and saves figures inside the figures folder.
+The "process_data.py" script reads experimental results from the "experiments" folder and saves figures inside the "figures" folder.
 Some of these are used in the original paper.

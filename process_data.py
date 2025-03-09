@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 import os
 
 def compare_errors(arr, file):
@@ -24,6 +25,8 @@ def compare_errors(arr, file):
     plt.savefig("figures/"+file+".png")
 
 
+figures_dir = Path("figures")
+figures_dir.mkdir(exist_ok=True)
 for file in os.listdir("experiments"):    
     data= np.load("experiments/"+file)
     arr = data['array1']
